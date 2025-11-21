@@ -22,8 +22,8 @@ jobs:
 
 
       - name: Build imagen docker
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/evDevops_f:latest .
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/evdevops_f:latest .
 
       - name: Push imgen docker
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/evDevops_f:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/evdevops_f:latest
 
